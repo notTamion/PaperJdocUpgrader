@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Minecraft Jdoc Upgrader",
+    "version": "1.0",
+    "description": "Automatically upgrades any bukkit/spigot/paper jdocs to the latest paper jdocs",
+
+    "content_scripts": [
+      {
+        "js": ["scripts/paper.js"],
+        "matches": [
+          "https://jd.papermc.io/*"
+        ]
+      },
+      {
+        "js": ["scripts/spigot.js"],
+        "matches": [
+          "https://hub.spigotmc.org/javadocs/*"
+        ]
+      }
+    ]
+  }
