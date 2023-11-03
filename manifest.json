@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Minecraft Jdoc Upgrader",
+    "name": "Paper Jdoc Upgrader",
     "version": "1.0",
     "description": "Automatically upgrades any bukkit/spigot/paper jdocs to the latest paper jdocs",
 
