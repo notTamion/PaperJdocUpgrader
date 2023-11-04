@@ -9,13 +9,15 @@
         "js": ["scripts/paper.js"],
         "matches": [
           "https://jd.papermc.io/*"
-        ]
+        ],
+        "run_at": "document_start"
       },
       {
         "js": ["scripts/spigot.js"],
         "matches": [
           "https://hub.spigotmc.org/javadocs/*"
-        ]
+        ],
+        "run_at": "document_start"
       }
     ]
   }
